@@ -1,0 +1,121 @@
+.flex-main{
+  display: flex;
+  flex-direction: row;
+}
+
+.profile{
+  width: 30%;
+  background: #ddd;
+  margin: 1%;
+  padding: 2%;
+}
+
+.content{
+  width: 70%;
+  background: #fff;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 20px;
+}
+@media only screen and (min-width:320px) and (max-width: 480px){
+  .flex-main{
+    display: flex;
+    flex-direction: column;
+  }
+  .profile{
+    width: 95%;
+    background: #fff;
+    margin: 1%;
+    padding: 2%;
+  }
+
+  .content{
+    width: 95%;
+    background: #fff;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 20px;
+  }
+}
+
+body{
+  background: #ddd;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  display: blocks;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  font-size: 25px;
+}
+
+/* @media only screen and (min-width:320px) and (max-width: 480px){
+  .flex-main{
+    display: flex;
+    flex-direction: column;
+  }
+  .profile{
+    width: 100%;
+    background: white;
+    margin: 1%;
+    padding: 2%;
+  }
+
+  .content{
+    width: 100%;
+    background: #fff;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 20px;
+  }
+
+} */
+
+@media only screen and (min-width:481px) and (max-width: 768px){
+  .flex-main{
+    display: flex;
+    flex-direction: column;
+  }
+  .profile{
+    width: 100%;
+    background: black;
+    margin: 1%;
+    padding: 2%;
+  }
+
+  .content{
+    width: 100%;
+    background: #fff;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 20px;
+  }
+
+}
+
+@media only screen and (min-width:769px) and (max-width: 1024px){
+  .flex-main{
+    display: flex;
+    flex-direction: column;
+  }
+  .profile{
+    width: 100%;
+    background: black;
+    margin: 1%;
+    padding: 2%;
+  }
+
+  .content{
+    width: 100%;
+    background: #fff;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 20px;
+  }
+
+}
